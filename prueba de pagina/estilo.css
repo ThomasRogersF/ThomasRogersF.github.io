@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+}
+body{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100vh;
+	background-color: grey;
+}
+header{
+	display: flex;
+	align-self: flex-start;
+	flex-wrap: wrap;
+	width: 100%;
+	overflow: hidden;
+	background: steelblue;
+	border-bottom: #F46609 2px solid;
+}
+header nav {
+	width: 100%;
+}
+header nav ul li{
+	float: left;
+	list-style: none;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+header nav ul li a{
+	transition: 300ms all ease;
+	color: black;
+	padding: 20px;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	color: white;
+	 
+}
+.separador{
+	display: flex;
+	width: 100%;
+
+}
+.principal, .aside{
+	margin: 20px;
+	width: 50%;
+
+}
+.cabezera{
+	width: 100%;
+	background-color: aqua;
+	display: flex;
+	align-self: flex-start;
+	padding: 20px;
+}
+.y{
+	font-family: calibri;
+	font-size: 16px;
+}
