@@ -1,0 +1,261 @@
+/*navbar conf to make it visible*/
+header{
+    position: relative;
+    z-index: 10000000000000000;
+    width: 100%;
+    height: auto;
+}
+/*end of that shit yo*/
+
+/*Video background settings*/
+.background-video{
+     padding-top: 1%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to top left, #66ffff 0%, #3399ff 99%);
+    opacity: .8;
+}
+
+/*end of it*/
+
+/*first text box*/
+
+
+.Welcome-text, .display-4{
+   
+text-align: center;
+color: white;
+}
+
+.paragraph{
+ 
+    font-family:  'Arial Narrow';
+    font-size: 200%;
+}
+
+
+/*end of it*/
+
+/*video settings*/
+
+#myvideo{
+    position: fixed;
+    z-index: -1;
+    width: 100% !important;
+    height: 100%;
+    min-width: 100%; 
+    min-height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  
+}
+/*End of it*/
+
+
+/*Know-me section*/
+
+.filtro2 {
+    position:relative;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    height: 100%;
+}
+.info {
+    display: flex;
+    padding: 1%;
+    height: 100%;
+    transition:1s;
+    transition-delay: 1s;
+}
+.text-info{
+    padding: 1%;
+    color: black;
+
+    
+}
+.info-p{
+    color: black;
+    text-align: justify;
+}
+.me{margin-top: 4%;
+    transition:1s;
+    transition-delay: 1s;
+    border:3px solid #0066cc;
+    width: 40%;
+   height: 70%;
+    border-radius: 15px;
+    
+
+}
+@media screen and (max-width: 900px){
+    .me, .logo{
+        
+        transition:1s;
+        transition-delay: 1s;
+        display: none;
+    }
+
+    .background-video{
+        padding-top: 15%;
+    }
+
+    .filtro2 {
+        position:relative;
+        background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+        height: auto;
+        transition:1s;
+        transition-delay: 1s;
+            
+    }
+
+}
+
+/*end of know me section*/
+
+/*global down arrow*/
+/*btn*/
+.btn-img{
+    width: 20%;
+    height: auto;
+    background-color: transparent;
+    cursor: pointer;
+  
+    margin-left: 40%;
+    margin-right: 40%;
+   border-radius: 15%;
+    border:#dfe9f3 solid 2px;
+    transition: all 0.5s;
+    
+}
+
+.btn-img:hover{
+    background-color: white;
+    transition: all 0.5s;
+}
+
+
+.arrow-down-icon-png-3{
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/*end of global arrow*/
+
+
+
+/*Global screen set*/
+@media screen and (max-height: 500px){
+    
+.btn-img{
+display: none;   
+}
+
+.btn-img:hover{
+display: none;
+}
+
+
+.arrow-down-icon-png-3{
+display: none;
+}
+
+#myvideo{
+display: none;
+}
+
+.Welcome-text{
+font-size: 100%;
+padding: 0%;
+}
+
+}
+/*End of global screen*/
+
+
+
+
+
+/*contactos*/
+.contactos{
+    position: relative;
+    height: 92%;
+    background: #1C1C1C;
+}
+
+.redes{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding-left: 37%;
+    padding-right: 37%;
+    background: #1C1C1C;
+}
+.filtro4{
+    position: relative;
+  
+    height: 100%;
+    width: auto;
+}
+
+.form{
+    position: absolute;
+    background: linear-gradient(to bottom left, #00ffff 0%, #0066cc 100%);
+      color: white;
+      top:10%;
+      left:10% ;
+       /*margin-bottom:10%;*/
+       margin-left: auto;
+      margin-right: auto;
+      width:80%;
+      border-radius:30px;
+      -webkit-box-shadow: 15px 13px 19px -4px rgba(0,0,0,0.57);
+  -moz-box-shadow: 15px 13px 19px -4px rgba(0,0,0,0.57);
+  box-shadow: 15px 13px 19px -4px rgba(0,0,0,0.57);
+  }
+  
+  .form-row{
+      justify-content: center;
+  }
+  
+  .form-group{
+      display: block;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width:80%;
+  }
+  .form-group2{
+      display: block;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      width:80%;
+     /* text-align:;*/
+  }
+  
+  .button {
+     position: relative;
+      cursor: pointer;
+      border: 0;
+      display: table;
+      font-size: 10px;
+      padding: 2%;
+     /* font-family:;*/
+      text-transform: uppercase;
+      background: #fff;
+      border-radius: 25px;
+      color: #744efd;
+      margin: auto;
+      transition: all 0.5s;
+      z-index: 0;
+      outline: none;
+       border:white 2px solid;
+  }
+/*End of contactos*/  
+
+
+
+
+
+

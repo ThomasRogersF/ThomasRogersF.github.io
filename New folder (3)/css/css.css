@@ -1,0 +1,96 @@
+.what-do-i-do{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    background-size:cover;
+    background-attachment:fixed;
+   
+
+}
+
+
+
+
+i {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40%;
+    margin-right: auto;
+   }
+     
+       
+       
+       .main{
+            transition:2s;
+             display:flex; 
+             margin: 2%;
+       }
+       
+       .main > div:nth-child(odd){
+           background-color:#ff66d9;
+                
+           
+       }    
+       .box1 {       
+     background-image: -webkit-linear-gradient(top left,  #cc33ff,  #ff0066);
+     background-image: -o-linear-gradient(top left,  #cc33ff,  #ff0066);
+     background-image: linear-gradient(to bottom right,  #cc33ff,  #ff0066); 
+          border-radius:9px;
+           color: white;
+              padding: 1em;
+       }
+       .box{
+            background-image: -webkit-linear-gradient(top left, #ff66d9,  #ff1aff);
+            background-image: -o-linear-gradient(top left, #ff66d9,  #ff1aff);
+            background-image: linear-gradient(to bottom right, #ff66d9,  #ff1aff); 
+        color: white;
+        padding: 1em;
+       }
+       
+       .box2{
+              background-image: -webkit-linear-gradient(top left, #c266ff,  #330066);
+              background-image: -o-linear-gradient(top left, #c266ff,  #330066);
+              background-image: linear-gradient(to bottom right, #c266ff,  #330066); 
+          color: white;
+          padding: 1em;
+       }
+       
+       
+       .box2, .box {
+           
+       border:white 15px solid;    
+                  border-radius:29px;
+       }
+       figure, img{
+           justify-content: center;
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width:auto;
+       }
+       h3{
+           text-align: center;
+       }
+       p {
+           text-align: center;
+           font-size: 20px;
+       }
+       
+       @media screen and (max-width: 800px){
+           
+           .main{
+               transition:2s;
+             display:grid; 
+               
+       }
+
+       .what-do-i-do{
+        height: auto;
+
+    }
+
+
+       }
+           
+           
+       
