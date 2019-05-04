@@ -222,7 +222,7 @@
                  <div class="form-group2">
                   <label for="inputAddress3" class="">MESSAGE</label>
                   <textarea class="form-control" id="mensaje" rows="3" placeholder="Déjanos un mensaje"></textarea><br>
-                  <button type="submit" class="button" onclick="enviar_contactos()">send</button>
+                  <input type="submit" name="submit" class="button" placeholder="SEND">
               </div>
           </div>  
       </div>   
@@ -263,7 +263,7 @@
         
         comment.open("POST", "php.php", true);
         comment.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-     comment.send();
+        comment.send();
       </script>
 
 </body>

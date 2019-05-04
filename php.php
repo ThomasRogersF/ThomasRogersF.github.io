@@ -1,8 +1,8 @@
 <?php
 if (isset($_POST['submit'])) {
 $dbserverName = "localhost";
-$dbuserName = "thomas";
-$dbpassword = "buhe9aqat";
+$dbuserName = "";
+$dbpassword = "";
 $dbname = "thomas_users";
 
 $conn = mysqli_connect( $dbserverName , $dbuserName , $dbpassword , $dbname );
