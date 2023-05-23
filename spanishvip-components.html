@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  </head>
+
+<!--============================================================ -->
+
+<style>
+  
+    @import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+
+   @import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css');
+
+  
+  
+body {
+  background: white; /* Make it white if you need */
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat';
+}
+</style>
+
+
+  <style>
+  
+   /* '''''''''''''''''''''''''''''''blockquote.orange-blockquote'''''''''''''''''''''''''''''''''''''''''''' */  
+
+    
+blockquote.orange-blockquote {
+  font: 14px/22px normal helvetica, sans-serif;
+  padding: 5%;
+  margin-top: 10px;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #FC8854;
+  border-radius: 6px;
+  background: #FFF3EE;
+}
+  
+/* '''''''''''''''''''''''''''''''responsive-table-spanish-english'''''''''''''''''''''''''''''''''''''''''''' */  
+    
+   .responsive-table-spanish-english {
+  margin: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.responsive-table-spanish-english thead th,
+.responsive-table-spanish-english tbody td {
+  border: 2px solid #ffffff; /* This sets the border color to white */
+  padding: 10px;
+  text-align: left;
+}
+.responsive-table-spanish-english thead {
+  background-color: #fff3ee;
+  font-weight: bold;
+}
+.responsive-table-spanish-english thead th {
+  color: #fc8854;
+}
+.responsive-table-spanish-english td {
+  position: relative;
+}
+.responsive-table-spanish-english td .text-content-spanish-english {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .responsive-table-spanish-english {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+}
+
+
+.responsive-table-spanish-english tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* This is a light grey color */
+}
+
+.responsive-table-spanish-english tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* This is white */
+}
+    
+    
+/* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */      
+    
+  /* Basic table styles */
+.one-row-table {
+  margin-top: 35px;
+  
+  width: 100%;
+  border-collapse: collapse;
+  background: #f9f9f9;
+  border-radius: 17px;
+  font-weight: bold;
+
+}
+
+.one-row-table thead th,
+.one-row-table tbody td {
+  border: 2px solid #E0E5EA; /* This sets the border color to white */
+  padding: 10px;
+  text-align: left;
+  padding-left: 5%;
+
+}
+
+
+.one-row-table-translation {
+padding-top: 10px;
+padding-bottom: 5px;
+color: #20253A;
+
+}
+
+.one-row-table-example {
+
+color: #fc8854
+
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .one-row-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+}  
+  /* ''''''''''''''''''''''''Notify Box ''''''''''''''''''''''''''''''''''''''''''''''''''' */      
+
+  /*   @import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');*/      
+
+
+  .box-style2 {
+    font: 18px arial;
+    padding: 5%;
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 6px;
+    background: #F0F9F8;
+    text-align: justify;
+  }
+  
+  .box-wrapper {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .box-icon {
+     color: white;
+    
+  }
+
+  .box-iwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: #FC8854;
+    border-radius: 15px;
+    border: 5px solid white;
+  }
+  
+  .box-title {
+	font-weight: bold;
+}
+
+
+  .box-text {
+        padding-left: 4%;
+    }
+    
+      /* '''''''''''''''''''''''''''Chat Box'''''''''''''''''''''''''''''''''''''''''''''''' */      
+
+
+    .chat-box-big-div {
+      margin: auto;
+      padding: 20px;
+      border-radius: 6px;
+      background: #F9F9F9;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .chat-box-div, .chat-box-div-2 {
+      font: 18px arial;
+      padding: 5%;
+      border-radius: 6px;
+      width: 60%;
+      margin-bottom: 10px;
+    }
+
+    .chat-box-div {
+      background: #F0F9F8;
+      align-self: flex-start;
+    }
+
+    .chat-box-div-2 {
+      background: #FFF3EE;
+    }
+
+    .chat-box-title, .chat-box-title-2 {
+      color: #636675;
+    }
+
+    .chat-box-text, .chat-box-text-2 {
+      font-weight: bold;
+      color: #FC8854;
+    }
+
+    .chat-box-text-translation, .chat-box-text-translation-2 {
+      font-style: italic;
+      color: #636675;
+    }
+
+    @media (max-width: 600px) {
+      .chat-box-big-div {
+        width: 90%;
+      }
+      .chat-box-div, .chat-box-div-2 {
+        width: 90%;
+      }
+    }
+
+          /* ''''''''''''''''''''''''''''''''''Note Link CSS''''''''''''''''''''''''''''''''''''''''' */      
+
+    /* @import url('https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'); */   
+
+    .note-box-div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 20px;
+      font: 18px/24px arial;
+      color: #FC8854;
+      background: #F0F9F8;
+      border-radius: 6px;
+    }
+
+    .note-box-text {
+      font-weight: bold;
+    }
+
+    .note-icon {
+      font-size: 20px;
+      color: white;
+    }
+
+    .iwrapper-note {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 35px;
+      width: 35px;
+      background: #FC8854;
+      border-radius: 7px;
+      border: 2px solid white;
+      margin-right: 10px;
+    }
+
+
+
+    @media (max-width: 350px) {
+      .iwrapper-note {
+        display: none;
+      }
+    }
+    
+              /* ''''''''''''''''''''''''''''Blockquote ver 2 ''''''''''''''''''''''''''''''''''''''''''''''' */      
+
+      
+blockquote.style4 {
+  font: 14px/22px normal helvetica, sans-serif;
+  padding: 5%;
+  margin-top: 10px;
+  color: black;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #6DC1B9;
+  border-radius: 6px;
+  background: #F0F9F8;
+}
+   
+                  /* '''''''''''''''''''''''''''''''''''''''Three collumn responsive table'''''''''''''''''''''''''''''''''''' */      
+
+    
+    /* Basic table styles */
+.three-collumn-responsive-table {
+  margin: 5px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.three-collumn-responsive-table thead th,
+.three-collumn-responsive-table tbody td {
+  border: 2px solid #ffffff; /* This sets the border color to white */
+  padding: 10px;
+  text-align: left;
+}
+.three-collumn-responsive-table thead {
+  background-color: #fff3ee;
+  font-weight: bold;
+}
+.three-collumn-responsive-table thead th {
+  color: #fc8854;
+}
+.three-collumn-responsive-table td {
+  position: relative;
+}
+.three-collumn-responsive-table td .three-collumn-text-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  .three-collumn-responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+}
+
+
+.three-collumn-responsive-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* This is a light grey color */
+}
+
+.three-collumn-responsive-table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* This is white */
+}
+    
+    
+                  /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */      
+
+    
+    
+    
+    
+    
+    
+  </style>
+
+  <body>
+    
+     <!--========================= Tittle =================================== -->
+        <br>
+
+    
+    
+    <p>Ui Components</p>
+    <h1>
+      
+      
+      SpanishVIP Academy Components
+      
+    </h1>
+    
+   <!--========================= orange blockquote =================================== -->  
+      <br>
+
+    
+    <blockquote class="orange-blockquote">
+      <span
+        >"Ut nonummy habent soluta claritas veniam. Typi nunc soluta hendrerit
+        mutationem sollemnes. Quis lius dolore et insitam vel. Aliquip consequat
+        futurum claram ut mazim. Facilisi accumsan dolore ii imperdiet
+        consequat. Claritatem aliquip quod putamus vulputate iusto. Doming minim
+        typi zzril lius usus. In clari mutationem autem non sit. Qui augue mirum
+        dynamicus gothica ut. Demonstraverunt processus soluta sequitur autem
+        demonstraverunt."</span>
+    </blockquote>
+    
+    <!--========================= responsive-table-spanish-english =================================== -->
+          <br>
+
+    
+    <table class="responsive-table-spanish-english">
+        <thead>
+            <tr>
+                <th style="text-align: center;">Spanish</th>
+                <th style="text-align: center;">English</th>
+            </tr>
+        </thead>
+     <tbody>
+    
+   <tr>
+    <td><span class="text-content-spanish-english">Bonito / Bonita <br> Pretty </span></td>
+    <td><span class="text-content-spanish-english">Ellas son bonitas <br> They are pretty </span></td>
+   </tr>
+  
+   <tr>
+    <td><span class="text-content-spanish-english">Malo <br> Bad </span></td>
+    <td><span class="text-content-spanish-english">Eres malo en este juego <br> You are bad at this game</span></td>
+    </tr>
+ 
+   </tbody></table>
+    
+        <!--========================= 1 row table =================================== -->
+    <br>
+
+    
+     <table class="one-row-table">
+      
+     <tbody>
+    <tr>
+    <td><p>Examples</p><br><p class="one-row-table-example">Yo soy Raul</p>
+      <p class="one-row-table-translation">I am Raul.</p></td>
+  </tr>
+  <tr>
+    <td><p class="one-row-table-example">I am tall, dark-skinned and thin.</p>
+    <p class="one-row-table-translation">I am tall, dark-skinned and thin.</p></td>
+  </tr>
+  <tr>
+    <td><p class="one-row-table-example">Bob es ingles.</p>
+    <p class="one-row-table-translation">Bob is English</p></td>
+  </tr>
+ 
+</tbody></table>
+    
+    
+     <!--========================= box with notify icon =================================== -->
+    <br>
+
+    
+    
+     <div class="box-style2">
+      <div class="box-wrapper">
+          <div class="box-iwrapper">
+              <i class="fi fi-ss-bell box-icon"></i>
+          </div>
+          <p class="box-title">Notice</p>
+      </div>
+    <div class="box-text">
+    	<p>Ut nonummy habent soluta claritas veniam. Typi nunc soluta hendrerit
+      mutationem sollemnes. Quis lius dolore et insitam vel. Aliquip consequat
+      futurum claram ut mazim. Facilisi accumsan dolore ii imperdiet
+      consequat. Claritatem aliquip quod putamus vulputate iusto. Doming minim
+      typi zzril lius usus. In clari mutationem autem non sit. Qui augue mirum
+      dynamicus gothica ut. Demonstraverunt processus soluta sequitur autem
+      demonstraverunt.</p>    
+    </div>
+  </div>
+    
+     <!--========================= box with notify icon =================================== -->
+          <br>
+
+    
+    
+    <div class="chat-box-big-div">
+      <div class="chat-box-div">
+        <p class="chat-box-title">Dr. Jones</p>
+        <p class="chat-box-text">Hola, Como estas?</p>
+        <p class="chat-box-text-translation">Hello, how are you?</p>
+      </div>
+
+      <div class="chat-box-div-2">
+        <p class="chat-box-title-2">Dr. Smith</p>
+        <p class="chat-box-text-2">Estoy bien, gracias</p>
+        <p class="chat-box-text-translation-2">I'm okay, thanks</p>
+      </div>
+
+      <div class="chat-box-div">
+        <p class="chat-box-title">Dr. Jones</p>
+        <p class="chat-box-text">Muy bien, gracias por preguntar</p>
+        <p class="chat-box-text-translation">Very well, thank you for asking</p>
+      </div>
+    </div>
+    
+    <!--======================= Note link ===================================== -->
+        <br>
+
+    
+    
+    
+    <div class="note-box-div">
+      <div class="iwrapper-note">
+        <i class="fi fi-br-hastag note-icon"></i>
+      </div>
+      <p class="note-box-text">Find out more on using ser here</p>
+    </div>
+    
+    <!--============================================================ -->
+    <br>
+    
+        <blockquote class="style4">
+      <span
+        >"Ut nonummy habent soluta claritas veniam. Typi nunc soluta hendrerit
+        mutationem sollemnes. Quis lius dolore et insitam vel. Aliquip consequat
+        futurum claram ut mazim. Facilisi accumsan dolore ii imperdiet
+        consequat. Claritatem aliquip quod putamus vulputate iusto. Doming minim
+        typi zzril lius usus. In clari mutationem autem non sit. Qui augue mirum
+        dynamicus gothica ut. Demonstraverunt processus soluta sequitur autem
+        demonstraverunt."</span>
+    </blockquote>
+    
+    <!--============================================================ -->
+        <br>
+
+    
+    
+    
+      <table class="three-collumn-responsive-table">
+        <thead>
+            <tr>
+                <th style="text-align: center;">-Ar</th>
+                <th style="text-align: center;">-Er</th>
+                <th style="text-align: center;">-Ir</th>
+            </tr>
+        </thead>
+     <tbody>
+    
+  <tr>
+    <td><span class="three-collumn-text-content">Caminar (to walk)</span></td>
+    <td><span class="three-collumn-text-content">Leer (to read)</span></td>
+    <td><span class="three-collumn-text-content">Leer (to read)</span></td>
+  </tr>
+    
+</tbody></table>
+    
+    
+    
+    
+    
+    
+  </body>
+
+<!--============================================================ -->
+</html>
