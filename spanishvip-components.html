@@ -196,7 +196,7 @@ color: #fc8854
       margin: auto;
       padding: 20px;
       border-radius: 6px;
-      background: transparent;
+      background: white;
       width: 80%;
       display: flex;
       flex-direction: column;
@@ -353,9 +353,78 @@ blockquote.style4 {
 }
     
     
-                  /* ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''' */      
+                  /* '''''''''''''''''''''''Tooltip'''''''''''''''''''''''''''''''''''''''''''''''''''' */      
 
-    
+      @import url('https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css');
+
+  .tooltip-style2 {
+     font: 18px arial;
+    padding: 5%;
+    margin-top: 10px;
+    color: black;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 6px;
+    background: #F0F9F8;
+    text-align: justify;
+  }
+  
+  .tooltip-wrapper {
+     height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+    border-radius: 15px;
+  }
+
+  .tooltip-icon {
+    color: white;
+  }
+
+  .tooltip-iwrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: #FC8854;
+    border-radius: 15px;
+    border: 5px solid white;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+     text-decoration: underline #FC8854 5px;
+     color: #FC8854;
+  }
+
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #FC8854;
+    color: #fff;
+    text-align: center;
+    border-bottom-right-radius: 20px 20px;
+    padding: 5px 0;
+    font-weight: bold;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
     
     
     
@@ -540,9 +609,21 @@ blockquote.style4 {
     
 </tbody></table>
     
+      <!--==================Tooltip========================================== -->
+       
     
-    
-    
+    <div class="tooltip-style2">
+      <div class="tooltip-wrapper">
+          <div class="tooltip-iwrapper">
+              <i class="fi fi-ss-bell tooltip-icon"></i>
+          </div>
+          <div class="tooltip">
+            <p>Hover over here</p>
+            <span class="tooltip-text">Oo-la</span>
+          </div>
+      </div>
+  
+  </div>
     
     
   </body>
