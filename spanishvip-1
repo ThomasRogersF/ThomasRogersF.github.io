@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  </head>
+  
+  
+  <body>
+   
+    
+    
+    <!--============================================================ -->
+    
+    <style>
+
+         .responsive-table-spanish-english {
+          margin: 5px;
+          width: 100%;
+          border-collapse: collapse;
+        }
+        .responsive-table-spanish-english thead th,
+        .responsive-table-spanish-english tbody td {
+          border: 2px solid #ffffff; /* This sets the border color to white */
+          padding: 10px;
+          text-align: left;
+        }
+        .responsive-table-spanish-english thead {
+          background-color: #fce5cd;
+          font-weight: bold;
+        }
+        .responsive-table-spanish-english thead th {
+          color: #fc8854;
+        }
+        .responsive-table-spanish-english td {
+          position: relative;
+        }
+        .responsive-table-spanish-english td .text-content-spanish-english {
+          display: inline-block;
+          vertical-align: middle;
+        }
+
+
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+          .responsive-table-spanish-english {
+            width: 100%;
+            border-collapse: collapse;
+
+          }
+        }
+
+
+        .responsive-table-spanish-english tbody tr:nth-child(even) {
+            background-color: #f9f9f9; /* This is a light grey color */
+        }
+
+        .responsive-table-spanish-english tbody tr:nth-child(odd) {
+            background-color: #ffffff; /* This is white */
+        }
+
+    </style>
+    
+      <!--========================= responsive-table-spanish-english =================================== -->
+        
+    <table class="responsive-table-spanish-english">
+        <thead>
+            <tr>
+                <th style="text-align: center;">Spanish Alphabet</th>
+                <th style="text-align: center;">Name in Spanish</th>
+            </tr>
+        </thead>
+     <tbody>
+    
+   <tr>
+    <td><span class="text-content-spanish-english">Yo </span></td>
+    <td><span class="text-content-spanish-english">I </span></td>
+   </tr>
+  
+   <tr>
+    <td><span class="text-content-spanish-english">Tu</span></td>
+    <td><span class="text-content-spanish-english">You</span></td>
+   </tr>
+ 
+    <tr>
+    <td><span class="text-content-spanish-english">El - Ella</span></td>
+    <td><span class="text-content-spanish-english">He - She</span></td>
+   </tr>
+       
+       
+       
+    <tr>
+    <td><span class="text-content-spanish-english">Ustedes</span></td>
+    <td><span class="text-content-spanish-english">You all</span></td>
+   </tr>
+       
+       
+       
+    <tr>
+    <td><span class="text-content-spanish-english">Ellos - Ellas</span></td>
+    <td><span class="text-content-spanish-english">They</span></td>
+   </tr>
+       
+       
+       
+    <tr>
+    <td><span class="text-content-spanish-english">Nosotros</span></td>
+    <td><span class="text-content-spanish-english">We</span></td>
+   </tr>
+       
+       
+  
+       
+          
+   </tbody></table>
+	  
+    
+        <!--============================================================ -->
+
+    
+    
+  </body>
+  
+</html>
